@@ -82,5 +82,5 @@ notboxplot <- function(data, x, y,
 }
 
 notboxplot(iris, x = "Species", y = "Sepal.Length")
-notboxplot(iris, x = "Species", y = "Sepal.Width")
-
+nbp <- notboxplot(iris, x = "Species", y = "Sepal.Width")
+nbp
