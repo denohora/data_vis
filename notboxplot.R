@@ -9,10 +9,9 @@
 # An alternative to a box plot, where the focus is on showing raw
 # data. Plots columns of y as different groups located at points
 # along the x axis defined by the optional vector x. Points are
-# layed over a 1.96 SEM (95# confidence interval) in red and a 1 SD
-# in blue. The user has the option of plotting the SEM and SD as a
-# line rather than area. Raw data are jittered along x for clarity. This
-# function is suited to displaying data which are normally distributed.
+# layed over a 1.96 SEM (95# confidence interval) in dark colour and a 1 SD
+# in lighter colour Raw data are jittered along x for clarity. This
+# function is suited to displaying data that are normally distributed.
 # Since, for instance, the SEM is meaningless if the data are bimodally
 # distributed. 
 
